@@ -3,73 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="../Documents/styles.css">
 </head>
 <style>
     #container{
         display: flex;
+        flex-direction: row;
+        margin: auto;
         align-items: center;
         justify-content: center;
         width: 500px;
         height: 600px;
         background-color: rgb(233, 233, 233) ;
-        
+        margin-top: 100px;
     }
     #box{
+        display: flex;
+        flex-direction: column;
         background-color: rgb(219, 219, 219);
         width: 450px;
         height: 550px;
-       
-    }
-    #header{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
+        align-items: start;
+        
         
     }
-     div section{
+    button{
+        border: none;
+        background-color: rgb(219, 219, 219);
+        width: 200px;
+        align-items: start;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+    #header{
+        display: block;
+       align-self: baseline;
+       
+       width: 300px;
+       height: 50px;
+        margin-left: 110px;
+    }
+    #texte{
+        display: flex;
+        height: 20px;
+        width: auto;
+        margin: auto;
+        margin-left: 10px;
+        text-align: left ;
+        justify-content: start;
+     }
+     #section1{
+        display: flex;
+        flex-wrap: nowrap;
         height: 40px;
-        width: 350px;
+        width: 400px;
+        margin: auto;
+       margin-top: 10px;
+       margin-left: 10px;
         background-color: white;
         
      }
+     div#texte{
+        height: 18.5px;
+     }
+     
+     div{
+        height: auto;
+        width: auto;
+        margin: auto;
+     }
+     #section2{
+        display: flex;
+        flex-wrap: nowrap;
+        height: 40px;
+        width: 400px;
+        margin: auto;
+       margin-top: 10px;
+       margin-left: 10px;
+        background-color: white;
         
+     }
+     
     #footer{
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+        align-items: center;
         text-align: center;
         height: 30px;
         width: 150px;
         background-color: rgb(78, 186, 201);
+        margin: auto;
+        
     }
-  .footer{
-    display: flex;
-    align-content: flex-end;
-    align-items: flex-end;
-
-  }
+    .button2{
+        border: none;
+        background-color: rgb(78, 186, 201);
+        width: 200px;
+        align-items: start;
+        text-align: center;
+    }
+  
+ h4{
+    text-align: center;
+    align-content: center;
+ }
 </style>
 <body>
     <div id="container">
-        <div id="box"><!--je n'arrive pas a mettre le lien sans le souligner et n'arrive pas à changer la couleur et NE PAS OUBLIER DE METTRE LA FLÈCHE-->
-            <div id="button"><a href="Home.html" >Retour à l'accueille</a></div>
+        <div id="box"><!--le lien marche pas et NE PAS OUBLIER DE METTRE LA FLÈCHE-->
+            <button class="button"> <a href="Home.html">Retour à l'accueil</a></button>
 
             <div id="header"><!--j'suis pas capable de les placer au centre-->
                 <img src="../Images/ShopOnLogo.png" width="190px" height="50px">
                 <br>
                 <h3>Connection à votre compte</h3>
             </div>
-            
-            <div id="section"><!--il y a une espace entre le texte et la section-->
-                <h4>Nom d'utilisateur ou addresse courriel</h4>
-                <section></section>
-            </div>
 
-            <div id="section"><!--il y a une espace entre le texte et la section-->
-                <h4>Mot de passe</h4>
-                <section></section>
-            </div>
+            <div id="texte"><h4>Nom d'utilisateur ou addresse courriel</h4></div>
+
+            <div id="section1" style="color: rgb(214, 214, 214);">Entrez le nom d'utilisateur ou addresse courriel</div>
+
+            <div id="texte"><h4>Mot de passe</h4></div>
+
+            <div id="section2" style="color: rgb(214, 214, 214);">Veuillez entrer votre mot de passe</div>
             
             <div id="footer"><!--Je n'arrive pas à séparer le mdp du se connecter-->
-                <a>Se connecter</a>
+                <button2> <a href="Home.html"  >Se connecter</button2>
             </div>
 
         </div>
