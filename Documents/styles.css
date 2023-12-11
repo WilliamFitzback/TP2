@@ -104,11 +104,34 @@ a:hover {
     width: 90%;
 }
 .ps-item {
-  float: left;
-  height: 50px;
-  width: 20%;
-  margin-left: 4%;
+    float: left;
+    height: 50px;
+    width: 20%;
+    margin-left: 4%;
 }
+
+/*---------------------- Styles de la division About-Us ------------------------*/
+.about-us {
+    background-color: #259bab;
+    padding-top: 50px;
+}
+.about-us-title {
+    color: #0b0c10;
+    text-align: center;
+}
+.about-us-subtitle {
+    text-align: left;
+    margin-left: 180px;
+}
+.about-us-text {
+    height: 220px;
+    width: 1500px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 180px;
+}
+
+/*---------------------- Styles du footer ------------------------*/
 
 
 
