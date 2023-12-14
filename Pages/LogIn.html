@@ -54,47 +54,24 @@
        margin: auto;
        text-align: center;
     }
-    #texte{
-        display: flex;
-        height: 20px;
-        width: auto;
-        margin: auto;
-        margin-left: 10px;
-        text-align: left ;
-        justify-content: start;
-     }
-     #section1{
-        display: flex;
-        flex-wrap: nowrap;
-        height: 40px;
-        width: 400px;
-        margin: auto;
-       margin-top: 10px;
-       margin-left: 10px;
-        background-color: white;
-        
-     }
-     div#texte{
-        height: 18.5px;
-     }
-     
+
      div{
         height: auto;
         width: auto;
         margin: auto;
      }
-     #section2{
-        display: flex;
-        flex-wrap: nowrap;
-        height: 40px;
-        width: 400px;
-        margin: auto;
-       margin-top: 10px;
-       margin-left: 10px;
-        background-color: white;
-        
-     }
-     
+     label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    margin: auto;
+    
+}
+input {
+  display: inline-block;
+  width: 300px;
+}
     #footer{
         display: flex;
         justify-content: center;
@@ -113,6 +90,7 @@
         width: 200px;
         align-items: start;
         text-align: center;
+        justify-content: flex-end;
     }
   
  h4{
@@ -128,19 +106,18 @@
             <div id="header">
                 <img src="../Images/ShopOnLogo.png" width="180px" height="45px"><h3>Connection à votre compte</h3>
             </div>
-
-            <div id="texte"><h4>Nom d'utilisateur ou addresse courriel</h4></div>
-
-            <div id="section1" style="color: rgb(214, 214, 214);">Entrez le nom d'utilisateur ou addresse courriel</div>
-
-            <div id="texte"><h4>Mot de passe</h4></div>
-
-            <div id="section2" style="color: rgb(214, 214, 214);">Veuillez entrer votre mot de passe</div>
+            
+                <form>
+                    <label for="username">Email ou Nom d'utilisateur:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="pwd">Mot de passe:</label><br>
+                    <input type="password" id="pwd" name="pwd">
+                </form>
             
             <div id="footer">
                 <button2> <a href="Home.html"  >Se connecter</button2>
             </div>
-
+            
         </div>
     </div>
 
