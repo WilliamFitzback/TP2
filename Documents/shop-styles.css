@@ -4,7 +4,6 @@ nav {
     height: 80px;
     background-color: #1f2833;
 }
-
 #box {
     float: left;
     height: 80px;
@@ -13,44 +12,20 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
 nav div a {
     text-decoration: none;
     color: #c5c6c7;
     font-size: x-large;
     font-family: Lato;
 }
-
+/*---------------------- Styles du menu déroulant ------------------------*/
 #nav-deroulante{
     background-color: #c5c6c7;
     height: 100px;
 }
-#cards{
-    display: flex;
-    margin: 20px;
-    background-color: #ffffff;
-    height: 300px;
-}
-#card{
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-aside {
-    height: 800px;
-    width: 15%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    background-color: #ffffff;
-}
-
+/*---------------------- Styles du shop ------------------------*/
 section{
-    width: 85%;
-    float: left;
-    background-color: #259bab;
-    height: 800px;
+    width: 100%;
+    height: fit-content;
+    background-color: #259BAB;
 }

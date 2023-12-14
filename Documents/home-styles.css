@@ -108,6 +108,10 @@ a:hover {
 .about-us {
     background-color: #259bab;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .about-us-title {
     color: #0b0c10;
@@ -116,7 +120,6 @@ a:hover {
 }
 .about-us-subtitle {
     text-align: left;
-    margin-left: 180px;
     font-family: 'Lato', sans-serif;
 }
 .about-us-text {
@@ -124,7 +127,6 @@ a:hover {
     width: 1500px;
     text-align: justify;
     text-justify: inter-word;
-    margin-left: 180px;
     font-family: 'Barlow', sans-serif;
 }
 
