@@ -103,7 +103,10 @@ a:hover {
     width: 20%;
     margin-left: 4%;
 }
-
+.preview-shop > div {
+    width: 200px;
+    height: 200px;
+}
 /*---------------------- Styles de la division About-Us ------------------------*/
 .about-us {
     background-color: #259bab;
