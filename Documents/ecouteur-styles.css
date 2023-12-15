@@ -37,6 +37,7 @@ section{
     background-color: #259BAB;
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 .card {
     height: 300px;
